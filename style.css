@@ -6,3 +6,15 @@
     border: 2px solid black;
     text-align: center;
 }
+.section-title {
+    text-align: center;
+}
+.header {
+    font-size: 50px;
+    text-align: center;
+}
+.header-nav {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
