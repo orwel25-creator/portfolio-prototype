@@ -6,8 +6,13 @@
     border: 2px solid black;
     text-align: center;
 }
-.item {
+.container {
     display: flex;
+}
+.item {
+    margin: 100px;
+    padding: 100px;
+    
 }
 .section-title {
     text-align: center;
