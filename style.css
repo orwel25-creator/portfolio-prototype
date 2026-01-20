@@ -13,9 +13,10 @@ header {
 }
 .item {
     display: flex;
-    margin: 0px 200px 0px 0px;
     text-align: center;
+    margin: 0px 200px 0px 0px;
 }
+
 .section-title {
     text-align: center;
 }
