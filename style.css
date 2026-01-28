@@ -1,32 +1,31 @@
 @charset "UTF-8";
-
-header h1 {
-    margin: 10px 0 0 10px ;
-}
-header {
-    font-size: 30px;
-    height: 200px;
-    margin: 10px 0 ;
-    
-}
-
 body {
     background-color: black;
 }
+.title {
+    text-align: center;
+    color: wheat;
+    background-color: blue;
+    font-size: 50px;
+}
+nav {
+    text-align: center;
+    color: wheat;
+    background-color: green;
+    font-size: 30px;  
+    /* padding: px; */
+    height: auto ;
+}
 main {
     background-color: aliceblue;
-}
-.title {
-    color: whitesmoke;
-    font-size: 50px;
-    text-align: center;
 }
 .container {
     display: flex;
 }
 .item {
+    display: flex;
     text-align: center;
-    padding: 60px;
+    padding: 20px 90px;
 }
 .skill-item {
     text-align: center;
