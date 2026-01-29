@@ -14,13 +14,15 @@ nav {
     background-color: green;
     font-size: 30px;  
     /* padding: px; */
-    height: auto ;
+    height: 100px ;
 }
 main {
     background-color: aliceblue;
 }
+/*  */
 .container {
     display: flex;
+    height: 100px;
 }
 .item {
     display: flex;
