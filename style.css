@@ -9,10 +9,11 @@ body {
     font-size: 50px;
 }
 nav {
+    display: flex;
     text-align: center;
     color: wheat;
     background-color: green;
-    font-size: 30px;  
+    font-size: 25px;  
     /* padding: px; */
     height: 100px ;
 }
