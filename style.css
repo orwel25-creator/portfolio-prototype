@@ -17,6 +17,10 @@ nav {
     padding: px;
     height: 100px ; 
 }
+a {
+    /* aタグの下の線を消す */
+    text-decoration: none;
+}
 main {
     background-color: aliceblue;
 }
