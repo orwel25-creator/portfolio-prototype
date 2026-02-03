@@ -4,15 +4,13 @@ body {
 }
 .title {
     text-align: center;
-    color: wheat;
-    background-color: blue;
+    color: white;
     font-size: 50px;
 }
 nav {
     display: flex;
     text-align: center;
     color: wheat;
-    background-color: green;
     font-size: 25px;  
     padding: px;
     height: 100px ; 
