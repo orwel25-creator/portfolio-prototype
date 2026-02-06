@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+html {
+    font-size: 100%;
+}
 body {
     background-color: black;
 }
@@ -7,6 +9,11 @@ body {
     text-align: center;
     color: white;
     font-size: 50px;
+}
+/* 見出し */
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
 }
 nav {
     display: flex;
