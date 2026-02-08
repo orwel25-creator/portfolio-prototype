@@ -1,2 +1,27 @@
 @charset "UTF-8";
+/* 共通 */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.5;
+}
+a {
+    /* aタグの下の線を消す */
+    text-decoration: none;
+}
+#page-header,
+#page-footer {
+    background-color: black;
+}
+
+/* タイトル */
+.title {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+
 
