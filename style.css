@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* 共通 */
+/* 共通 
+------------------------------- */
 html {
     font-size: 100%;
 }
@@ -11,10 +12,14 @@ a {
     /* aタグの下の線を消す */
     text-decoration: none;
 }
+
 #page-header,
 #page-footer {
     background-color: black;
 }
+
+/* ヘッダー 
+------------------------------- */
 
 /* タイトル */
 .title {
@@ -23,5 +28,18 @@ a {
     padding-top: 25px;
 }
 
-
-
+/* ナビ */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+    list-style: none;
+}
+.main-nav a {
+    color: white;
+}
+.main-nav a:hover {
+    /* カーソルが上に乗った時に色を変える */
+    color: #0bd;
+}
