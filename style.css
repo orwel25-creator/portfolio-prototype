@@ -4,18 +4,26 @@
 html {
     font-size: 100%;
 }
+
+/* フォント */
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.5;
 }
+
+/* aタグの下の線を消す */
 a {
-    /* aタグの下の線を消す */
     text-decoration: none;
 }
 
 #page-header,
 #page-footer {
     background-color: black;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
 }
 
 /* ヘッダー 
