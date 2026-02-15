@@ -11,8 +11,13 @@ body {
     line-height: 1.5;
 }
 
-/* aタグの下の線を消す */
+.text-center {
+    /* テキストを中央に配置 */
+    text-align: center; 
+}
+
 a {
+    /* aタグの下の線を消す */
     text-decoration: none;
 }
 
@@ -52,9 +57,10 @@ a {
     color: #0bd;
 }
 
-/* about 
+/* profile 
 ------------------------------- */
-p {
-    
+
+.about {
+    /* 中央の左側揃え */
 }
 
