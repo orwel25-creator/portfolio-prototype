@@ -11,6 +11,12 @@ body {
     line-height: 1.5;
 }
 
+ul {
+    /* 点を消す */
+    list-style: none; 
+}
+
+
 .text-center {
     /* テキストを中央に配置 */
     text-align: center; 
@@ -70,7 +76,4 @@ a {
 /* profile 
 ------------------------------- */
 
-.about {
-    /* 中央の左側揃え */
-}
 
