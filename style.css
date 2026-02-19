@@ -40,7 +40,6 @@ a {
 .container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
 
 .item {
@@ -73,7 +72,22 @@ a {
     color: #0bd;
 }
 
-/* profile 
+/* about
+------------------------------- */
+
+/* works
 ------------------------------- */
 
 
+/* skill
+------------------------------- */
+.skill-item {
+    background-color: #aef;
+    width: 400px; 
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* .skill-title{
+
+} */
