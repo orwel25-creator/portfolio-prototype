@@ -82,12 +82,11 @@ a {
 /* skill
 ------------------------------- */
 .skill-item {
-    background-color: #aef;
     width: 400px; 
-    padding: 2rem;
+    padding: 1rem;
     margin: 1rem;
 }
 
-/* .skill-title{
-
-} */
+.skill-title{
+     
+}
