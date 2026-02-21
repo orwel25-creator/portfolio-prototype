@@ -82,11 +82,12 @@ a {
 /* skill
 ------------------------------- */
 .skill-item {
-    width: 400px; 
+    width: 300px; 
     padding: 1rem;
-    margin: 1rem;
 }
 
-.skill-title{
-     
+.skill-item ul {
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
 }
