@@ -16,7 +16,6 @@ ul {
     list-style: none; 
 }
 
-
 .text-center {
     /* テキストを中央に配置 */
     text-align: center; 
@@ -90,4 +89,23 @@ a {
     display: flex;
     flex-direction: column; 
     text-align: center; 
+}
+
+/* contact
+------------------------------- */
+.e-mail {
+    padding: 1rem;
+}
+
+/* footer
+------------------------------- */
+footer {
+    padding: 1rem;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    /* カーソルが上に乗った時に色を変える */
+    color: #0bd;
 }
