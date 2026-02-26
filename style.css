@@ -112,3 +112,7 @@ footer a:hover {
     /* カーソルが上に乗った時に色を変える */
     color: #0bd;
 }
+
+@media (min-width:800px) {
+    
+}
