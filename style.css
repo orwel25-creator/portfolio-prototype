@@ -114,5 +114,10 @@ footer a:hover {
 }
 
 @media (min-width:800px) {
-    
+    /* タイトル */
+    .title {
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
 }
