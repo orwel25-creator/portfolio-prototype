@@ -124,16 +124,11 @@ footer a:hover {
         padding-top: 50px;
     }
 
-/* 共通 
-------------------------------- */
-html {
-    font-size: 100%;
-}
-
 /* フォント */
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.5;
+    font-size: 20px;
 }
 
 ul {
