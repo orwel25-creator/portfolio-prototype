@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 共通 
-------------------------------- */
+---------------------------------------------------------------------------------------------------------------------------- */
 html {
     font-size: 100%;
 }
@@ -44,6 +44,10 @@ a {
 .item {
     padding: 1rem;
 }
+
+
+/* モバイル版 
+---------------------------------------------------------------------------------------------------------------------------- */
 
 /* ヘッダー 
 ------------------------------- */
@@ -114,21 +118,26 @@ footer a:hover {
 }
 
 
+
 /* ディスクトップ版
-------------------------------- */
+---------------------------------------------------------------------------------------------------------------------------- */
 @media (min-width:800px) {
-    /* タイトル */
-    .title {
-        text-align: center;
-        color: white;
-        padding-top: 50px;
-    }
+/* タイトル */
+.title {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
 
 /* フォント */
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.5;
     font-size: 20px;
+}
+section {
+    /* 上下に100px、左右に0の余白 */
+    padding: 2rem 0; 
 }
 
 ul {
@@ -154,6 +163,7 @@ a {
 .section-title {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -200,7 +210,7 @@ a {
 /* works
 ------------------------------- */
 img {
-    width: 200px;
+    width: 250px;
     border-radius: 30px;
 }
 
@@ -230,6 +240,7 @@ footer {
 }
 footer a {
     color: white;
+    font-size: 2rem;
 }
 footer a:hover {
     /* カーソルが上に乗った時に色を変える */
