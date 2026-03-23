@@ -8,7 +8,8 @@ html {
 /* フォント */
 body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: #333;
 }
 
 ul {
@@ -45,78 +46,8 @@ a {
     padding: 1rem;
 }
 
-
 /* モバイル版 
 ---------------------------------------------------------------------------------------------------------------------------- */
-
-/* ヘッダー 
-------------------------------- */
-
-/* タイトル */
-.title {
-    text-align: center;
-    color: white;
-    padding-top: 25px;
-}
-
-/* ナビ */
-.main-nav {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    font-size: 2rem;
-    list-style: none;
-}
-.main-nav a {
-    color: white;
-}
-.main-nav a:hover {
-    /* カーソルが上に乗った時に色を変える */
-    color: #0bd;
-}
-
-/* about
-------------------------------- */
-
-/* works
-------------------------------- */
-img {
-    width: 200px;
-    border-radius: 30px;
-}
-
-/* skill
-------------------------------- */
-.skill-item {
-    width: 300px; 
-    padding: 1rem;
-}
-
-.skill-item ul {
-    display: flex;
-    flex-direction: column; 
-    text-align: center; 
-}
-
-/* contact
-------------------------------- */
-.e-mail {
-    padding: 1rem;
-}
-
-/* footer
-------------------------------- */
-footer {
-    padding: 1rem;
-}
-footer a {
-    color: white;
-}
-footer a:hover {
-    /* カーソルが上に乗った時に色を変える */
-    color: #0bd;
-}
-
 
 
 /* ディスクトップ版
@@ -192,6 +123,8 @@ a {
     gap: 5rem;
     font-size: 2rem;
     list-style: none;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
 }
 .main-nav a {
     color: white;
